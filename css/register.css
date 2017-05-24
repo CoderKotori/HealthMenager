@@ -1,0 +1,191 @@
+div.reg {
+    background: white;
+    color: black;
+    border: 0;
+    margin: 100px 30% auto 30%;
+    font-family: 方正姚体, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 1em 2em;
+}
+
+td.sel {
+    text-align: left;
+}
+
+.lform {
+    border-radius: 10px;
+    padding-left: 0.5em;
+    font-family: Adobe 黑体 Std;
+    margin-bottom: 10px;
+    font-size: 110%;
+    outline: none;
+    margin-left: 2em;
+    border-style: ridge;
+    border-color: lightblue;
+    border-width: 1px;
+    width: 200px;
+    box-shadow: 0 0 10px lightblue;
+}
+
+.sform {
+    border-radius: 10px;
+    padding-left: 0.5em;
+    font-family: Adobe 黑体 Std;
+    margin-bottom: 10px;
+    font-size: 110%;
+    outline: none;
+    margin-left: 2em;
+    border-style: ridge;
+    border-color: lightblue;
+    border-width: 1px;
+    width: 60px;
+    box-shadow: 0 0 10px lightblue;
+}
+
+.ssel {
+    border-radius: 10px;
+    font-family: Adobe 黑体 Std;
+    padding-left: 0.5em;
+    margin-bottom: 10px;
+    outline: none;
+    border-style: ridge;
+    border-color: lightblue;
+    border-width: 1px;
+    height: 3em;
+    margin-left: 2.5em;
+    box-shadow: 0 0 10px lightblue;
+}
+
+.ssel2 {
+    border-radius: 10px;
+    font-family: Adobe 黑体 Std;
+    padding-left: 0.5em;
+    margin-bottom: 10px;
+    outline: none;
+    border-style: ridge;
+    border-color: lightblue;
+    border-width: 1px;
+    height: 3em;
+    box-shadow: 0 0 10px lightblue;
+}
+
+.sq {
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: white;
+    height: 3em;
+    width: 60px;
+}
+
+.submit {
+    background-color: #f57e57;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    font-family: Adobe 黑体 Std;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 120%;
+    width: 80px;
+    border: 1px #f57e57;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+div.inf {
+    margin: 100px 25% auto 13%;
+    line-height: 150%;
+}
+
+div.left {
+    text-align: left;
+    margin: 0;
+    padding-right: 0.8em;
+    float: left;
+}
+
+div.content {
+    background: white;
+    color: black;
+    border: 0;
+    margin: 100px 25% auto 250px;
+    font-family: 方正姚体, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+table.inf {
+    border-collapse: collapse;
+    font-family: 方正姚体, sans-serif;
+    font-size: 110%;
+    font-weight: 600;
+    border-color: #18afd3;
+    line-height: 250%;
+    table-layout: fixed;
+    width: 100px
+}
+
+span.inf {
+    margin-right: 0.5em
+}
+
+a.inf11:link,
+a.inf11:visited {
+    color: #f57e57;
+    text-decoration: none;
+}
+
+a.inf11:hover,
+a.inf11:active {
+    color: #f57e57;
+    border-color: #f57e57;
+    font-size: 105%;
+    border-width: 2px;
+}
+
+a.inf21:link,
+a.inf21:visited {
+    color: #18afd3;
+    text-decoration: none;
+}
+
+a.inf21:hover,
+a.inf21:active {
+    color: #f57e57;
+    border-color: #f57e57;
+    font-size: 105%;
+    border-width: 2px;
+}
+
+a.inf12:link,
+a.inf12:visited {
+    color: #18afd3;
+    text-decoration: none;
+}
+
+a.inf12:hover,
+a.inf12:active {
+    color: #f57e57;
+    border-color: #f57e57;
+    font-size: 105%;
+    border-width: 2px;
+}
+
+a.inf22:link,
+a.inf22:visited {
+    color: #f57e57;
+    text-decoration: none;
+}
+
+a.inf22:hover,
+a.inf22:active {
+    color: #f57e57;
+    border-color: #f57e57;
+    font-size: 105%;
+    border-width: 2px;
+}

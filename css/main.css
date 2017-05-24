@@ -1,0 +1,159 @@
+body.home {
+    background: url('../image/bg1.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position-y: 110px;
+    margin-bottom: 10px;
+}
+
+body.login {
+    background: url('../image/bg2.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position-y: 110px;
+    margin-bottom: 10px;
+}
+
+.header {
+    color: #18afd3;
+    text-align: left;
+    padding-left: 5%;
+    line-height: 0.7em;
+}
+
+.welcome {
+    color: #18afd3;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.nagivation {
+    background-color: #18afd3;
+    box-shadow: 0px 0px 10px #303030;
+    color: white;
+    text-align: right;
+    margin: 0 5%;
+    border-radius: 10px;
+    height: 60px;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+.smallnag1 {
+    background-color: #18afd3;
+    color: white;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 55%;
+    margin-top: 2em;
+    border-radius: 10px;
+    height: 90px;
+    font-size: 300%;
+    padding-top: 0.5em;
+    overflow: hidden;
+}
+
+.smallnag2 {
+    background-color: #18afd3;
+    color: white;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 55%;
+    margin-top: 0.5em;
+    border-radius: 10px;
+    height: 90px;
+    font-size: 300%;
+    padding-top: 0.5em;
+    overflow: hidden;
+}
+
+.sansserif {
+    font-family: Agency FB, sans-serif;
+    font-weight: 500;
+}
+
+.yaoti {
+    font-family: 方正姚体, sans-serif;
+    font-weight: 400;
+}
+
+.table1 {
+    background-color: #808080;
+    float: left;
+    color: #000000;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 75px;
+    font-size: 300%;
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    padding-top: 0.5em;
+    overflow: scroll;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+h1 {
+    font-size: 600%;
+    font-weight: 600;
+    font-family: Agency FB, bold;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+a.one:link,
+a.one:visited {
+    background-color: #18afd3;
+    display: block;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+}
+
+a.one:hover,
+a.one:active {
+    background-color: #f57e57;
+}
+
+.image {
+    clear: both;
+    margin-top: 20px;
+    margin-right: 50px;
+    transform: scale(1);
+}
+
+a.image:hover,
+a.image:active {
+    filter: drop-shadow(0px 0px 5px #303030);
+}
+
+a.smallnag:link,
+a.smallnag:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.smallnag:hover,
+a.smallnag:active {
+    font-size: 105%;
+}

@@ -1,0 +1,87 @@
+div.hos {
+    color: black;
+    border: 0;
+    margin: 100px 20% auto 20%;
+    font-family: 方正姚体, sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.shead {
+    color: #18afd3;
+    text-align: left;
+    font-size: 150%;
+    border-bottom: dashed #f57e57;
+    border-bottom-width: 2px;
+    padding-bottom: 0.5em;
+}
+
+.sel {
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.2em;
+    border-style: ridge;
+    margin-left: 1em;
+}
+
+table {
+    width: 100%;
+}
+
+.btn {
+    background-color: #f57e57;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    font-family: Adobe 黑体 Std;
+    font-size: 120%;
+    height: 40px;
+    width: 70px;
+    border: 1px #f57e57;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    margin-left: 30px;
+}
+
+.right {
+    text-align: right;
+}
+
+table.show {
+    border-color: rgba(50, 200, 255, 0.5);
+    border-width: 2px;
+    border-collapse: collapse;
+    text-align: center;
+    color: #303030;
+    font-family: Adobe 黑体 Std;
+    height: 60px;
+    font-weight: 400;
+    line-height: 30px;
+    border-radius: 15px;
+    table-layout: fixed;
+}
+
+th {
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(lightblue), to(#18afd3));
+    color: white;
+    font-weight: 600;
+    border-color: white;
+}
+
+th.ll {
+    width: 50%;
+}
+
+tr.province {
+    background-color: lightblue;
+    text-align: left;
+    display: inline-block;
+    border-left: black
+}
+
+span {
+    margin: 2em
+}

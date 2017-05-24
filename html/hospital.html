@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HEALTH MENAGER</title>
+    <link href="../CSS/main.css" type="text/css" rel="stylesheet" />
+    <link href="../CSS/hospital.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/hospital.js"></script>
+
+</head>
+
+<body class="home">
+    <div class="header">
+        <h2 class="sansserif">
+            <font color="#f57e57">H</font>EALTH
+            <font color="#f57e57">M</font>ENAGER
+        </h2>
+    </div>
+    <div class="nagivation">
+        <div class="yaoti">
+            <ul>
+                <li class="image">
+                    <a class="image" id="log" href="../html/login.html"><img src="../image/xiaoren.png" width="20px"></a>
+                </li>
+                <li><a class="one" id="about" href="abou">关于</a></li>
+                <li><a class="one" href="inf" id="information">信息管理</a></li>
+                <li><a class="one" href="../index.html" id="home">首页</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="welcome">
+        <font color="#ffffff">
+            <h1> Welcome!</h1>
+            <h3 class="yaoti">首页->医院查询</h3>
+        </font>
+    </div>
+    <div class="hos">
+        <p class="shead">请选择医院查询条件</h3>
+            <form action="" method="get" name="form1">
+                <table cellspacing="10em 0">
+                    <tr>
+                        <td>省（自治区/直辖市）
+                            <select id="province" class="sel"><option>请选择省（自治区/直辖市）</option></select></td>
+                        <td>医院类别
+                            <select id="???" class="sel"><option>请选择医院类别</option></select></td>
+                    </tr>
+                    <tr>
+                        <td>医院等级
+                            <select id="???" class="sel"><option>请选择医院级别等次</option></select>
+                            <td>医院名称
+                                <input id="???" type="text" class="sel" placeholder="请输入关键字" name="???"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="right">
+                            <input id="btn_search" type="submit" name="btn_search" class="btn" value="搜 索" onclick="search()">
+                            <input id="btn_reset" type="submit" name="btn_reset" class="btn" value="重置" onclick="reset()">
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+            <div>
+                <p class="shead">您所查询医院名录如下</p>
+                <table class="show" cellpadding="0" rules="all" cellspacing="0" frame="box">
+                    <tr>
+                        <th class="ll">医院名称</th>
+                        <th>医院别称</th>
+                        <th>医院等级</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3">请输入所在地或关键字查询</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+</body>
+
+</html>
