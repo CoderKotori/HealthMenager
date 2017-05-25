@@ -62,6 +62,7 @@
                     <tr>
                         <td>性 别</td>
                         <td colspan="1" class="sel"><select class="ssel">
+                        <option value="请选择" > 请选择性别</option>
                         <option value="男" > 男</option>
                         <option value="女" > 女</option>
                         <option value="保密" > 保密</option>
@@ -70,15 +71,15 @@
                     </tr>
                     <tr>
                         <td>出生日期</td>
-                        <td>
+                        <td colspan="3" class="sel">
 
                             <select onchange="setDays()" class="ssel">
 </select>
-                            <span>年</span></td>
-                        <td><select onchange="setDays()" class="ssel2">
+                            <span>年</span>
+                            <select onchange="setDays()" class="ssel2">
 </select>
-                            <span>月</span></td>
-                        <td><select class="ssel2">
+                            <span>月</span>
+                            <select class="ssel2">
 </select>
                             <span>日</span>
                         </td>
@@ -90,14 +91,37 @@
                     </tr>
                     <tr>
                         <td>所在地</td>
-                        <td colspan="3" class="sel"><input class="lform" type="text" name="addr" id="addr1"></td>
+                        <td colspan="3" class="sel">
+                            <select id="province2" class="ssel"><option>请选择省</option></select><span>省</span>
+                            <select id="city2" class="ssel2"><option>请选择市</option></select><span>市</span>
+                        </td>
                     </tr>
                     <tr>
                         <td>运动频率</td>
-                        <td colspan="3" class="sel"><input class="lform" type="text" name="sport" id="sport1"></td>
+                        <td colspan="3" class="sel"><select class="ssel">
+                        <option value="请选择" > 请选择您的频率</option>
+                        <option value="sport" > 几乎不运动</option>
+                        <option value="sport" > 一周1-2天</option>
+                        <option value="sport" > 一周3-5天</option>
+                        <option value="sport" > 几乎每天运动</option>
+                    </select></td>
+                    </tr>
+                    <tr>
+                        <td>饮食偏好</td>
+                        <td colspan="3" class="sel"><select class="ssel">
+                        <option value="请选择" > 请选择偏好</option>
+                        <option value="food" > 荤</option>
+                        <option value="food" > 素</option>
+                        <option value="food" > 荤素搭配</option>
+                    </select></td>
                     </tr>
                     <tr>
                         <td>病 史
+                        </td>
+                        <td class="sel" colspan="3"><input class="lform" type="text" name="disease" id="disease"></td>
+                    </tr>
+                    <tr>
+                        <td>过敏史
                         </td>
                         <td class="sel" colspan="3"><input class="lform" type="text" name="disease" id="disease"></td>
                     </tr>
