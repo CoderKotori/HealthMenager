@@ -85,3 +85,52 @@ tr.province {
 span {
     margin: 2em
 }
+
+div.diag {
+    border: 0;
+    margin: 10px 10% auto 10%;
+    font-weight: 600;
+    text-align: left;
+}
+
+p.diag_shead {
+    text-align: left;
+    color: #18afd3;
+    font-size: 150%;
+    font-family: 方正姚体, sans-serif;
+    border-bottom: dashed #f57e57;
+    border-bottom-width: 2px;
+    padding-bottom: 0.5em;
+}
+
+div.diag1 {
+    float: left;
+    width: 100%;
+    padding-right: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+textarea.diag {
+    width: 54%;
+    height: 200px;
+    font-size: 150%;
+}
+
+div.diag_btn {
+    text-align: center;
+    width: 33%;
+    margin: 0;
+}
+
+button.diag_btn {
+    margin-top: 150px;
+    height: 50px;
+    background-color: #f57e57;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    font-family: Adobe 黑体 Std;
+    font-size: 120%;
+}
