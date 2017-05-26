@@ -142,23 +142,9 @@ span.inf {
     margin-right: 0.5em
 }
 
-a.inf11:link,
-a.inf11:visited {
-    color: #f57e57;
-    text-decoration: none;
-}
-
-a.inf11:hover,
-a.inf11:active {
-    color: #f57e57;
-    border-color: #f57e57;
-    font-size: 105%;
-    border-width: 2px;
-}
-
 a.inf21:link,
 a.inf21:visited {
-    color: #18afd3;
+    color: #f57e57;
     text-decoration: none;
 }
 
@@ -170,14 +156,14 @@ a.inf21:active {
     border-width: 2px;
 }
 
-a.inf12:link,
-a.inf12:visited {
+a.inf11:link,
+a.inf11:visited {
     color: #18afd3;
     text-decoration: none;
 }
 
-a.inf12:hover,
-a.inf12:active {
+a.inf11:hover,
+a.inf11:active {
     color: #f57e57;
     border-color: #f57e57;
     font-size: 105%;
@@ -186,12 +172,26 @@ a.inf12:active {
 
 a.inf22:link,
 a.inf22:visited {
-    color: #f57e57;
+    color: #18afd3;
     text-decoration: none;
 }
 
 a.inf22:hover,
 a.inf22:active {
+    color: #f57e57;
+    border-color: #f57e57;
+    font-size: 105%;
+    border-width: 2px;
+}
+
+a.inf12:link,
+a.inf12:visited {
+    color: #f57e57;
+    text-decoration: none;
+}
+
+a.inf12:hover,
+a.inf12:active {
     color: #f57e57;
     border-color: #f57e57;
     font-size: 105%;
@@ -205,4 +205,9 @@ p.head {
     border-bottom: dashed #f57e57;
     border-bottom-width: 2px;
     padding-bottom: 0.5em;
+}
+
+div.echarts {
+    width: 100%;
+    height: 500px;
 }

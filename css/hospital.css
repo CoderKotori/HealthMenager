@@ -113,7 +113,7 @@ div.diag1 {
 
 div.diag2 {
     float: right;
-    width: 40%;
+    width: 45%;
     padding-right: 1em;
     text-align: center;
     margin: 0;
@@ -129,9 +129,8 @@ textarea.diag {
 div.diag3 {
     background-color: rgba(255, 0, 0, 0.2);
     color: white;
-    margin-left: 10%;
-    width: 80%;
-    height: 200px;
+    width: 100%;
+    height: 300px;
     font-size: 150%;
     padding: 0.5em;
 }
@@ -139,11 +138,12 @@ div.diag3 {
 div.diag_btn {
     float: left;
     text-align: center;
-    width: 20%;
+    width: 10%;
     margin: 0;
 }
 
 button.diag_btn {
+    cursor: pointer;
     margin-top: 150px;
     height: 50px;
     background-color: #f57e57;

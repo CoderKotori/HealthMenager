@@ -6,8 +6,9 @@
     <title>HEALTH MANAGER</title>
     <link href="../CSS/main.css" type="text/css" rel="stylesheet" />
     <link href="../CSS/register.css" type="text/css" rel="stylesheet" />
-    <script type="text/javascript" src="../js/birthday.js"></script>
-
+    <script src="../js/echarts.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/quxian.js"></script>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
                     <li class="image">
                         <a class="image" id="log" href="login.html"><img src="../image/xiaoren.png" width="20px"></a>
                     </li>
-                    <li><a class="one" id="about" href="about.html">关于</a></li>
+                    <li><a class="one" id="about" href="./about.html">关于</a></li>
                     <li><a class="one" href="information1.html" id="information">信息管理</a></li>
                     <li><a class="one" href="../index.html" id="home">首页</a></li>
                 </ul>
@@ -32,8 +33,8 @@
         </div>
         <div class="home">
             <div class="home_wenzi">
-                <h1> Manager</h1>
-                <p class="home_wenzi">信息管理->个人信息</p>
+                <h1>Manager</h1>
+                <p class="home_wenzi">信息管理->健康记录</p>
             </div>
         </div>
     </div>
@@ -42,95 +43,22 @@
             <table frame="rhs" class="inf" cellspacing="0">
 
                 <tr class="list">
-                    <td><span class="inf"><a class="inf11" href="information1.html">个人信息</a></span></td>
+                    <td><span class="inf"><a class="inf12" href="information1.html">健康记录</a></span></td>
                 </tr>
 
                 <tr>
-                    <td><span class="inf"><a class="inf21" href="information2.html">健康记录</a></span></td>
+                    <td><span class="inf"><a class="inf22" href="information2.html">个人信息</a></span></td>
                 </tr>
             </table>
         </div>
-        <div class="content1">
-            <form action="login.html" method="get">
-                <table cellpadding="1em" cellspacing="3em 0">
-                    <tr>
-                        <td>用户名
-                        </td>
-                        <td colspan="3" class="sel"><input class="lform" type="text" name="username" id="username3"></td>
-                    </tr>
-
-                    <tr>
-                        <td>性 别</td>
-                        <td colspan="1" class="sel"><select class="ssel">
-                        <option value="请选择" > 请选择性别</option>
-                        <option value="男" > 男</option>
-                        <option value="女" > 女</option>
-                        <option value="保密" > 保密</option>
-                    </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>出生日期</td>
-                        <td colspan="3" class="sel">
-
-                            <select onchange="setDays()" class="ssel">
-</select>
-                            <span>年</span>
-                            <select onchange="setDays()" class="ssel2">
-</select>
-                            <span>月</span>
-                            <select class="ssel2">
-</select>
-                            <span>日</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>邮 箱
-                        </td>
-                        <td colspan="3" class="sel"><input class="lform" type="text" name="email" id="email2"></td>
-                    </tr>
-                    <tr>
-                        <td>所在地</td>
-                        <td colspan="3" class="sel">
-                            <select id="province2" class="ssel"><option>请选择省</option></select><span>省</span>
-                            <select id="city2" class="ssel2"><option>请选择市</option></select><span>市</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>运动频率</td>
-                        <td colspan="3" class="sel"><select class="ssel">
-                        <option value="请选择" > 请选择您的频率</option>
-                        <option value="sport" > 几乎不运动</option>
-                        <option value="sport" > 一周1-2天</option>
-                        <option value="sport" > 一周3-5天</option>
-                        <option value="sport" > 几乎每天运动</option>
-                    </select></td>
-                    </tr>
-                    <tr>
-                        <td>饮食偏好</td>
-                        <td colspan="3" class="sel"><select class="ssel">
-                        <option value="请选择" > 请选择偏好</option>
-                        <option value="food" > 荤</option>
-                        <option value="food" > 素</option>
-                        <option value="food" > 荤素搭配</option>
-                    </select></td>
-                    </tr>
-                    <tr>
-                        <td>病 史
-                        </td>
-                        <td class="sel" colspan="3"><input class="lform" type="text" name="disease" id="disease"></td>
-                    </tr>
-                    <tr>
-                        <td>过敏史
-                        </td>
-                        <td class="sel" colspan="3"><input class="lform" type="text" name="disease" id="disease"></td>
-                    </tr>
-                </table>
-                <div>
-                    <input class="submit" type="submit" id="correct" value="修 改">
-                </div>
-            </form>
-
+        <div class="content2">
+            <p class="head">血压折线图</p>
+            <input type="button" value="日">
+            <div class="echarts" id="healthecharts"></div>
+            <script type="text/javascript">
+                var myChart = echarts.init(document.getElementById('healthecharts'));
+                myChart.setOption(option);
+            </script>
         </div>
     </div>
 </body>

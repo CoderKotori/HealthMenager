@@ -1,4 +1,4 @@
-option = {
+var option = {
     title: {
         text: '一周内血压变化',
         subtext: '血压(mmHg)'
