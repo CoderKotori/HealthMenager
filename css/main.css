@@ -1,17 +1,54 @@
-body.home {
-    background: url('../image/bg1.jpg');
-    background-repeat: no-repeat;
-    background-color: white;
-    background-position-y: 110px;
-    margin-bottom: 10px;
+div.lhome {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    text-align: center;
 }
 
-body.login {
+div.home {
+    background: url('../image/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 280px;
+    top: 25px;
+    z-index: 0;
+}
+
+div.home_wenzi {
+    color: white;
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+    left: 5%;
+}
+
+p.home_wenzi {
+    color: white;
+    position: absolute;
+    top: 180px;
+    z-index: 1;
+    left: 5%;
+    font-weight: 500;
+    font-family: 方正姚体, sans-serif;
+    font-size: 100%;
+}
+
+div.llogin {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+div.login {
     background: url('../image/bg2.jpg');
     background-repeat: no-repeat;
-    background-color: white;
-    background-position-y: 110px;
-    margin-bottom: 10px;
+    background-size: 100%;
+    position: relative;
+    height: 600px;
+    top: 25px;
+    z-index: 0;
 }
 
 .header {
@@ -21,20 +58,17 @@ body.login {
     line-height: 0.7em;
 }
 
-.welcome {
-    color: #18afd3;
-    text-align: left;
-    padding-left: 5%;
-}
-
 .nagivation {
+    position: absolute;
+    z-index: 2;
+    right: 5%;
+    left: 5%;
     background-color: #18afd3;
     box-shadow: 0px 0px 10px #303030;
     color: white;
     text-align: right;
-    margin: 0 5%;
     border-radius: 10px;
-    height: 60px;
+    height: 40px;
     overflow: hidden;
     padding-right: 10px;
 }
@@ -43,12 +77,10 @@ body.login {
     background-color: #18afd3;
     color: white;
     text-align: center;
-    margin-right: 15%;
-    margin-left: 55%;
-    margin-top: 2em;
+    margin: 40px 25% auto 55%;
     border-radius: 10px;
-    height: 90px;
-    font-size: 300%;
+    height: 60px;
+    font-size: 200%;
     padding-top: 0.5em;
     overflow: hidden;
 }
@@ -57,12 +89,10 @@ body.login {
     background-color: #18afd3;
     color: white;
     text-align: center;
-    margin-right: 15%;
-    margin-left: 55%;
-    margin-top: 0.5em;
+    margin: 1em 25% auto 55%;
     border-radius: 10px;
-    height: 90px;
-    font-size: 300%;
+    height: 60px;
+    font-size: 200%;
     padding-top: 0.5em;
     overflow: hidden;
 }
@@ -78,17 +108,16 @@ body.login {
 }
 
 .table1 {
-    background-color: #808080;
+    background-color: rgba(250, 250, 200, 0.6);
     float: left;
     color: #000000;
     text-align: center;
-    margin-left: 10%;
-    margin-top: 75px;
-    font-size: 300%;
+    margin: 20px auto auto 15%;
+    font-size: 200%;
     border-radius: 10px;
-    height: 400px;
-    width: 500px;
-    padding-top: 0.5em;
+    height: 300px;
+    width: 350px;
+    padding: 1em;
     overflow: scroll;
 }
 
@@ -100,9 +129,6 @@ h1 {
     font-size: 600%;
     font-weight: 600;
     font-family: Agency FB, bold;
-    color: white;
-    margin-top: 80px;
-    margin-bottom: 40px;
 }
 
 ul {
@@ -121,12 +147,12 @@ a.one:visited {
     background-color: #18afd3;
     display: block;
     color: white;
-    padding: 20px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     width: 80px;
-    height: 40px;
+    height: 50px;
     font-weight: bold;
 }
 
@@ -137,8 +163,8 @@ a.one:active {
 
 .image {
     clear: both;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin-top: 10px;
+    margin-right: 40px;
     transform: scale(1);
 }
 
