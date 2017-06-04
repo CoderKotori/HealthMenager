@@ -53,12 +53,16 @@
         </div>
         <div class="content2">
             <p class="head">血压折线图</p>
-            <input type="button" value="日">
-            <div class="echarts" id="healthecharts"></div>
-            <script type="text/javascript">
-                var myChart = echarts.init(document.getElementById('healthecharts'));
-                myChart.setOption(option);
-            </script>
+            <table class="inf_health">
+                <tr>
+                    <td><button onclick="week()" class="inf_health">周</button></td>
+                    <td><button onclick="month()" class="inf_health">月</button></td>
+                    <td><button onclick="year()" class="inf_health">年</button></td>
+                </tr>
+            </table>
+            <div class="echarts" id="healthecharts1"></div>
+            <div class="echarts" id="healthecharts2"></div>
+            <div class="echarts" id="healthecharts3"></div>
         </div>
     </div>
 </body>

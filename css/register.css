@@ -208,6 +208,14 @@ p.head {
 }
 
 div.echarts {
-    width: 100%;
     height: 500px;
+}
+
+table.inf_health {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+button.inf_health {
+    background-color: rgba(0, 0, 0, 0.2);
 }
