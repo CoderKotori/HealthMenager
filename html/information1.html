@@ -8,6 +8,7 @@
     <link href="../CSS/register.css" type="text/css" rel="stylesheet" />
     <script src="../js/echarts.js"></script>
     <script src="../js/jquery.min.js"></script>
+    <script src="../js/dialog-plus.js"></script>
     <script src="../js/quxian.js"></script>
 </head>
 
@@ -58,13 +59,28 @@
                     <td><button onclick="week()" class="inf_health">周</button></td>
                     <td><button onclick="month()" class="inf_health">月</button></td>
                     <td><button onclick="year()" class="inf_health">年</button></td>
+                    <td style="text-align: right">
+                        <button class="inf_record" id="btn_record">+添加</button>
+                        <script src="../js/record.js"></script>
+                    </td>
                 </tr>
             </table>
             <div class="echarts" id="healthecharts1"></div>
             <div class="echarts" id="healthecharts2"></div>
             <div class="echarts" id="healthecharts3"></div>
+
+
+        </div>
+        <div id="record" class="inf_record">
+            <div class="record_content">
+                <span class="close">&times;</span>
+                <p>弹窗中的文本...</p>
+            </div>
+
         </div>
     </div>
+
+
 </body>
 
 </html>
