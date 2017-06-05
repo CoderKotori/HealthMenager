@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 方正姚体;
+    src: url('../font/FZYTK.TTF');
+}
+
+@font-face {
+    font-family: Agency FB;
+    src: url('../font/AGENCYB.TTF'), url('../font/AGENCYR.TTF');
+}
+
+@font-face {
+    font-family: Adobe 黑体 Std;
+    src: url('../font/AdobeHeitiStd-Regular.otf');
+}
+
 div.lhome {
     position: relative;
     width: 100%;
