@@ -15,6 +15,10 @@ div.home {
     z-index: 0;
 }
 
+div.clear {
+    clear: both
+}
+
 div.home_wenzi {
     color: white;
     position: absolute;
@@ -39,6 +43,16 @@ div.llogin {
     width: 100%;
     height: 600px;
     text-align: center;
+}
+
+div.bot {
+    margin-top: 70px;
+    color: #808080;
+    width: 100%;
+    text-align: center;
+    line-height: 500%;
+    font-family: 方正姚体, sans-serif;
+    font-size: 50%;
 }
 
 div.login {
@@ -108,17 +122,16 @@ div.login {
 }
 
 .table1 {
-    background-color: rgba(250, 250, 200, 0.6);
+    background-color: rgba(250, 250, 200, 0);
     float: left;
     color: #000000;
     text-align: center;
-    margin: 20px auto auto 15%;
+    margin: auto auto auto 15%;
     font-size: 200%;
     border-radius: 10px;
     height: 300px;
-    width: 350px;
-    padding: 1em;
-    overflow: visible;
+    width: 400px;
+    overflow: hidden;
 }
 
 h2 {
