@@ -57,7 +57,7 @@
             <p class="head">血压折线图</p>
             <table class="inf_health">
                 <tr>
-                    <td><button onclick="week()" class="inf_health">周</button></td>
+                    <td><button onclick="week()" class="inf_health" id="btn_week">周</button></td>
                     <td><button onclick="month()" class="inf_health">月</button></td>
                     <td><button onclick="year()" class="inf_health">年</button></td>
                     <td style="text-align: right">
@@ -76,6 +76,7 @@
     </div>
     <div class="bot">联系我们 76491781@qq.com</div>
     <script type="text/javascript">
+        $('#btn_week').trigger("click");
         $(document).ready(function() {
             $.goup({
                 trigger: 100,
