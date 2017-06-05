@@ -118,7 +118,7 @@ div.login {
     height: 300px;
     width: 350px;
     padding: 1em;
-    overflow: scroll;
+    overflow: visible;
 }
 
 h2 {
@@ -182,4 +182,21 @@ a.smallnag:visited {
 a.smallnag:hover,
 a.smallnag:active {
     font-size: 105%;
+}
+
+a.backToTop {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 50px;
+    /*页边距*/
+    right: 50px;
+    /*页边距*/
+    background: url(top.gif) no-repeat -51px 0;
+    display: none;
+    border: 1px solid red;
+}
+
+a.backToTop:hover {
+    background-position: -113px 0
 }

@@ -13,12 +13,29 @@ td.sel {
     text-align: left;
 }
 
-.lform {
+input.lform {
     border-radius: 10px;
     padding-left: 0.5em;
     font-family: Adobe 黑体 Std;
     margin-bottom: 10px;
-    font-size: 110%;
+    height: 40px;
+    font-size: 100%;
+    outline: none;
+    margin-left: 2em;
+    border-style: ridge;
+    border-color: lightblue;
+    border-width: 1px;
+    width: 200px;
+    box-shadow: 0 0 10px lightblue;
+}
+
+textarea.lform {
+    border-radius: 10px;
+    padding-left: 0.5em;
+    font-family: Adobe 黑体 Std;
+    margin-bottom: 10px;
+    height: 90px;
+    font-size: 100%;
     outline: none;
     margin-left: 2em;
     border-style: ridge;

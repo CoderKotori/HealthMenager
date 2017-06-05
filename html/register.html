@@ -7,6 +7,9 @@
     <link href="../CSS/main.css" type="text/css" rel="stylesheet" />
     <link href="../CSS/register.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="../js/birthday.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.goup.js"></script>
+
 
 </head>
 
@@ -93,6 +96,16 @@
                 </tr>
         </form>
     </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 50,
+                locationOffset: 50,
+                titleAsText: true
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -7,6 +7,8 @@
     <link href="../CSS/main.css" type="text/css" rel="stylesheet" />
     <link href="../CSS/register.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="../js/birthday.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.goup.js"></script>
 
 </head>
 
@@ -118,12 +120,12 @@
                     <tr>
                         <td>病 史
                         </td>
-                        <td class="sel" colspan="3"><input class="lform" type="text" name="disease" id="disease"></td>
+                        <td class="sel" colspan="3"><textarea class="lform" type="text" name="disease" id="disease"></textarea></td>
                     </tr>
                     <tr>
                         <td>过敏史
                         </td>
-                        <td class="sel" colspan="3"><input class="lform" type="text" name="disease" id="disease"></td>
+                        <td class="sel" colspan="3"><textarea class="lform" type="text" name="disease" id="disease"></textarea></td>
                     </tr>
                 </table>
                 <div>
@@ -133,6 +135,16 @@
 
         </div>
     </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 50,
+                locationOffset: 50,
+                titleAsText: true
+            });
+        });
+    </script>
 </body>
 
 </html>

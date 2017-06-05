@@ -6,9 +6,11 @@
     <title>HEALTH MANAGER</title>
     <link href="../CSS/main.css" type="text/css" rel="stylesheet" />
     <link href="../css/hospital.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script src="../js/echarts.js"></script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/diagnosis.js"></script>
+    <script type="text/javascript" src="../js/jquery.goup.js"></script>
 </head>
 
 <body>
@@ -62,7 +64,16 @@
 
 
     </div>
-
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 50,
+                locationOffset: 50,
+                titleAsText: true
+            });
+        });
+    </script>
 </body>
 
 </html>
