@@ -7,8 +7,10 @@
     <link href="../CSS/main.css" type="text/css" rel="stylesheet" />
     <link href="../CSS/register.css" type="text/css" rel="stylesheet" />
     <script src="../js/echarts.js"></script>
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/quxian.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/dialog-plus.js"></script>
+    <script type="text/javascript" src="../js/quxian.js"></script>
+    <script type="text/javascript" src="../js/jquery.goup.js"></script>
 </head>
 
 <body>
@@ -53,14 +55,38 @@
         </div>
         <div class="content2">
             <p class="head">血压折线图</p>
-            <input type="button" value="日">
-            <div class="echarts" id="healthecharts"></div>
-            <script type="text/javascript">
-                var myChart = echarts.init(document.getElementById('healthecharts'));
-                myChart.setOption(option);
-            </script>
+            <table class="inf_health">
+                <tr>
+                    <td><button onclick="week()" class="inf_health" id="btn_week">周</button></td>
+                    <td><button onclick="month()" class="inf_health">月</button></td>
+                    <td><button onclick="year()" class="inf_health">年</button></td>
+                    <td style="text-align: right">
+                        <button class="inf_record" id="btn_record">+添加</button>
+                        <script src="../js/record.js"></script>
+                    </td>
+                </tr>
+            </table>
+            <div class="echarts" id="healthecharts1"></div>
+            <div class="echarts" id="healthecharts2"></div>
+            <div class="echarts" id="healthecharts3"></div>
+
+
         </div>
+
     </div>
+    <div class="bot">联系我们 76491781@qq.com</div>
+    <script type="text/javascript">
+        $('#btn_week').trigger("click");
+        $(document).ready(function() {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 50,
+                locationOffset: 50,
+                titleAsText: true
+            });
+        });
+    </script>
+
 </body>
 
 </html>

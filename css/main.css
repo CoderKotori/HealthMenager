@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 方正姚体;
+    src: url('../font/FZYTK.TTF');
+}
+
+@font-face {
+    font-family: Agency FB;
+    src: url('../font/AGENCYB.TTF'), url('../font/AGENCYR.TTF');
+}
+
+@font-face {
+    font-family: Adobe 黑体 Std;
+    src: url('../font/AdobeHeitiStd-Regular.otf');
+}
+
 div.lhome {
     position: relative;
     width: 100%;
@@ -13,6 +28,10 @@ div.home {
     height: 280px;
     top: 25px;
     z-index: 0;
+}
+
+div.clear {
+    clear: both
 }
 
 div.home_wenzi {
@@ -39,6 +58,16 @@ div.llogin {
     width: 100%;
     height: 600px;
     text-align: center;
+}
+
+div.bot {
+    margin-top: 70px;
+    color: #808080;
+    width: 100%;
+    text-align: center;
+    line-height: 500%;
+    font-family: 方正姚体, sans-serif;
+    font-size: 50%;
 }
 
 div.login {
@@ -108,17 +137,16 @@ div.login {
 }
 
 .table1 {
-    background-color: rgba(250, 250, 200, 0.6);
+    background-color: rgba(250, 250, 200, 0);
     float: left;
     color: #000000;
     text-align: center;
-    margin: 20px auto auto 15%;
+    margin: auto auto auto 15%;
     font-size: 200%;
     border-radius: 10px;
     height: 300px;
-    width: 350px;
-    padding: 1em;
-    overflow: scroll;
+    width: 400px;
+    overflow: hidden;
 }
 
 h2 {
@@ -182,4 +210,21 @@ a.smallnag:visited {
 a.smallnag:hover,
 a.smallnag:active {
     font-size: 105%;
+}
+
+a.backToTop {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 50px;
+    /*页边距*/
+    right: 50px;
+    /*页边距*/
+    background: url(top.gif) no-repeat -51px 0;
+    display: none;
+    border: 1px solid red;
+}
+
+a.backToTop:hover {
+    background-position: -113px 0
 }

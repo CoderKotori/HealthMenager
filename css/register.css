@@ -2,7 +2,7 @@ div.reg {
     background: white;
     color: black;
     border: 0;
-    margin: 10px 30% auto 30%;
+    margin: 10px auto auto 30%;
     font-family: 方正姚体, sans-serif;
     font-weight: 600;
     text-align: center;
@@ -13,12 +13,29 @@ td.sel {
     text-align: left;
 }
 
-.lform {
+input.lform {
     border-radius: 10px;
     padding-left: 0.5em;
     font-family: Adobe 黑体 Std;
     margin-bottom: 10px;
-    font-size: 110%;
+    height: 40px;
+    font-size: 100%;
+    outline: none;
+    margin-left: 2em;
+    border-style: ridge;
+    border-color: lightblue;
+    border-width: 1px;
+    width: 200px;
+    box-shadow: 0 0 10px lightblue;
+}
+
+textarea.lform {
+    border-radius: 10px;
+    padding-left: 0.5em;
+    font-family: Adobe 黑体 Std;
+    margin-bottom: 10px;
+    height: 90px;
+    font-size: 100%;
     outline: none;
     margin-left: 2em;
     border-style: ridge;
@@ -208,6 +225,29 @@ p.head {
 }
 
 div.echarts {
-    width: 100%;
     height: 500px;
+}
+
+table.inf_health {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+button.inf_health {
+    background-color: rgba(0, 100, 60, 0.3);
+    border-color: rgba(100, 200, 255, 0.3);
+    border-radius: 1px;
+    cursor: pointer;
+    width: 4em;
+    height: 2em
+}
+
+button.inf_record {
+    background-color: rgba(0, 100, 60, 0.3);
+    border-color: rgba(100, 200, 255, 0.3);
+    border-radius: 1px;
+    cursor: pointer;
+    width: 6em;
+    height: 2em
 }

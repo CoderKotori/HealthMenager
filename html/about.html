@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>HEALTH MANAGER</title>
     <link href="../CSS/main.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.goup.js"></script>
 
 </head>
 
@@ -35,3 +37,17 @@
             </div>
         </div>
     </div>
+    <div class="bot">联系我们 76491781@qq.com</div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 50,
+                locationOffset: 50,
+                titleAsText: true
+            });
+        });
+    </script>
+</body>
+
+</html>

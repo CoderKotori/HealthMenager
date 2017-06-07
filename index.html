@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>HEALTH MENAGER</title>
     <link href="CSS/main.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.goup.js"></script>
 
 </head>
 
@@ -35,13 +37,28 @@
             </div>
         </div>
     </div>
-    <div class="table1">广告科普位</div>
-    <div class="smallnag1">
-        <font class="yaoti"><a class="smallnag" id="hospital" href="html/hospital.html">医院查询>></a></font>
+    <div>
+        <div class="table1" id="ad1"><img id="ad2" src="image/health1.gif"></div>
+        <script type="text/javascript" src="js/indeximage.js"></script>
+        <div class="smallnag1">
+            <font class="yaoti"><a class="smallnag" id="hospital" href="html/hospital.html">医院查询>></a></font>
+        </div>
+        <div class="smallnag2">
+            <font class="yaoti"><a class="smallnag" id="diagnosis" href="html/diagnosis.html">疾病诊断>></a></font>
+        </div>
+        <div class="clear"></div>
     </div>
-    <div class="smallnag2">
-        <font class="yaoti"><a class="smallnag" id="diagnosis" href="html/diagnosis.html">疾病诊断>></a></font>
-    </div>
+    <div class="bot">联系我们 76491781@qq.com</div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 50,
+                locationOffset: 50,
+                titleAsText: true
+            });
+        });
+    </script>
 </body>
 
 </html>

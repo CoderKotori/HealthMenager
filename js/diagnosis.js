@@ -5,12 +5,9 @@ var option = {
         type: 'pie',
         radius: '90%',
         data: [
-            { value: 0.23, name: '视频广告' },
-            { value: 0.27, name: '联盟广告' },
-            { value: 0.31, name: '邮件营销' },
-            { value: 0.33, name: '直接访问' },
-            { value: 0.4, name: '搜索引擎' }
-
+            { value: 0.5, name: '高血压' },
+            { value: 0.3, name: '糖尿病' },
+            { value: 0.2, name: '其他慢性病' },
         ],
         roseType: 'angle',
         label: {

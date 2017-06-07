@@ -7,6 +7,8 @@
     <link href="../CSS/main.css" type="text/css" rel="stylesheet" />
     <link href="../CSS/register.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="../js/birthday.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.goup.js"></script>
 
 </head>
 
@@ -51,7 +53,7 @@
             </table>
         </div>
         <div class="content1">
-            <form action="login.html" method="get">
+            <form action="information2.html" method="get">
                 <table cellpadding="1em" cellspacing="3em 0">
                     <tr>
                         <td>用户名
@@ -118,21 +120,32 @@
                     <tr>
                         <td>病 史
                         </td>
-                        <td class="sel" colspan="3"><input class="lform" type="text" name="disease" id="disease"></td>
+                        <td class="sel" colspan="3"><textarea class="lform" type="text" name="disease" id="disease"></textarea></td>
                     </tr>
                     <tr>
                         <td>过敏史
                         </td>
-                        <td class="sel" colspan="3"><input class="lform" type="text" name="disease" id="disease"></td>
+                        <td class="sel" colspan="3"><textarea class="lform" type="text" name="disease" id="disease"></textarea></td>
                     </tr>
                 </table>
                 <div>
-                    <input class="submit" type="submit" id="correct" value="修 改">
+                    <input class="submit" type="submit" id="correct" value="完 成">
                 </div>
             </form>
 
         </div>
     </div>
+    <div class="bot">联系我们 76491781@qq.com</div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $.goup({
+                trigger: 100,
+                bottomOffset: 50,
+                locationOffset: 50,
+                titleAsText: true
+            });
+        });
+    </script>
 </body>
 
 </html>

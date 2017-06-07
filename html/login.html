@@ -6,6 +6,8 @@
     <title>HEALTH MANAGER</title>
     <link href="../CSS/main.css" type="text/css" rel="stylesheet" />
     <link href="../CSS/login.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.goup.js"></script>
 
 </head>
 
@@ -40,12 +42,23 @@
                     <p class="chi">验证码</p>
                     <input class="sform" type="text" name="indentify" id="indentify1">
                     <div class="sq"></div>
+                    <div class="clear"></div>
                     <input class="submit" type="submit" id="login" value="登 录">
                     <div class="chi wenzi"><a class="wenzi" href="register.html">还没有账号？</a></div>
                 </form>
             </div>
         </div>
-
+        <div class="bot">联系我们 76491781@qq.com</div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $.goup({
+                    trigger: 100,
+                    bottomOffset: 50,
+                    locationOffset: 50,
+                    titleAsText: true
+                });
+            });
+        </script>
 </body>
 
 </html>
