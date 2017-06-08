@@ -133,6 +133,7 @@ div.content1 {
     background: white;
     color: black;
     border: 0;
+    /*informatin2修改margin*/
     margin: 10px auto auto 40%;
     font-family: 方正姚体, sans-serif;
     font-weight: 600;
