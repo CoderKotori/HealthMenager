@@ -9,6 +9,12 @@ div.reg {
     padding: 1em 2em;
 }
 
+span.ss {
+    font-family: Adobe 黑体 Std;
+    color: #ff4040;
+    vertical-align: middle;
+}
+
 td.sel {
     text-align: left;
 }
@@ -23,10 +29,9 @@ input.lform {
     outline: none;
     margin-left: 2em;
     border-style: ridge;
-    border-color: lightblue;
     border-width: 1px;
     width: 200px;
-    box-shadow: 0 0 10px lightblue;
+    box-shadow: 0 0 10px #808080;
 }
 
 textarea.lform {
@@ -54,10 +59,9 @@ textarea.lform {
     outline: none;
     margin-left: 2em;
     border-style: ridge;
-    border-color: lightblue;
     border-width: 1px;
     width: 60px;
-    box-shadow: 0 0 10px lightblue;
+    box-shadow: 0 0 10px #808080;
 }
 
 .ssel {
@@ -67,11 +71,10 @@ textarea.lform {
     margin-bottom: 10px;
     outline: none;
     border-style: ridge;
-    border-color: lightblue;
     border-width: 1px;
     height: 3em;
     margin-left: 2.5em;
-    box-shadow: 0 0 10px lightblue;
+    box-shadow: 0 0 10px #808080;
 }
 
 .ssel2 {
@@ -81,10 +84,9 @@ textarea.lform {
     margin-bottom: 10px;
     outline: none;
     border-style: ridge;
-    border-color: lightblue;
     border-width: 1px;
     height: 3em;
-    box-shadow: 0 0 10px lightblue;
+    box-shadow: 0 0 10px #808080;
 }
 
 .sq {
