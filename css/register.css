@@ -230,6 +230,7 @@ p.head {
 
 div.echarts {
     height: 500px;
+    width: 100%
 }
 
 table.inf_health {
@@ -243,7 +244,7 @@ button.inf_health {
     border-color: rgba(100, 200, 255, 0.3);
     border-radius: 1px;
     cursor: pointer;
-    width: 4em;
+    width: 3em;
     height: 2em
 }
 

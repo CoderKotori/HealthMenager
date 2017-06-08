@@ -57,26 +57,22 @@
             <p class="head">血压折线图</p>
             <table class="inf_health">
                 <tr>
-                    <td><button onclick="week()" class="inf_health" id="btn_week">周</button></td>
-                    <td><button onclick="month()" class="inf_health">月</button></td>
-                    <td><button onclick="year()" class="inf_health">年</button></td>
+                    <td><button class="inf_health" id="btn_day">日</button></td>
+                    <td><button class="inf_health" id="btn_week">周</button></td>
+                    <td><button class="inf_health" id="btn_month">月</button></td>
+                    <td><button class="inf_health" id="btn_year">年</button></td>
                     <td style="text-align: right">
                         <button class="inf_record" id="btn_record">+添加</button>
                         <script src="../js/record.js"></script>
                     </td>
                 </tr>
             </table>
-            <div class="echarts" id="healthecharts1"></div>
-            <div class="echarts" id="healthecharts2"></div>
-            <div class="echarts" id="healthecharts3"></div>
-
-
+            <div class="echarts" id="healthecharts"></div>
         </div>
 
     </div>
     <div class="bot">联系我们 76491781@qq.com</div>
     <script type="text/javascript">
-        $('#btn_week').trigger("click");
         $(document).ready(function() {
             $.goup({
                 trigger: 100,
